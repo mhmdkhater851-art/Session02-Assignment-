@@ -35,21 +35,28 @@
             //Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot
             //divide by zero", and then prints "Done" in a finally block.
 
-            try
-            {
-                int num01 = 10;
-                int num02 = 0;
-                Console.WriteLine(num01/num02);
+            //try
+            //{
+            //    int num01 = 10;
+            //    int num02 = 0;
+            //    Console.WriteLine(num01/num02);
 
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("Cannot divide by zero");
-            }
-            finally
-            {
-                Console.WriteLine("Done");
-            }
+            //}
+            //catch (Exception)
+            //{
+            //    Console.WriteLine("Cannot divide by zero");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Done");
+            //}
+            #endregion
+
+            #region Q05
+            // 5- Declare an int pages = 300; then store it in a double variable without using a cast.
+
+            int pages = 300;
+            double pagesAsDouble = pages;
             #endregion
         }
     }
