@@ -19,10 +19,16 @@
             //Equals() (compare book with itself),
             // GetHashCode(), and GetType() on book.
 
-            Console.WriteLine(book_1.ToString());
-            Console.WriteLine(book_1.Equals(book_1));
-            Console.WriteLine(book_1.GetHashCode());
-            Console.WriteLine(book_1.GetType());
+            ///Console.WriteLine(book_1.ToString());
+            ///Console.WriteLine(book_1.Equals(book_1));
+            ///Console.WriteLine(book_1.GetHashCode());
+            ///Console.WriteLine(book_1.GetType());
+            #endregion
+
+            #region Q03
+            // Compile-time error: cannot assign a string to an int.
+            // Fixed:
+            //int pages = 464;
             #endregion
         }
     }
