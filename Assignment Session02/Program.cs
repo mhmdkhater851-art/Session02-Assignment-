@@ -30,6 +30,27 @@
             // Fixed:
             //int pages = 464;
             #endregion
+
+            #region Q04
+            //Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot
+            //divide by zero", and then prints "Done" in a finally block.
+
+            try
+            {
+                int num01 = 10;
+                int num02 = 0;
+                Console.WriteLine(num01/num02);
+
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Cannot divide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+            #endregion
         }
     }
 }
